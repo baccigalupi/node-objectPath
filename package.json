@@ -1,0 +1,23 @@
+{
+  "name": "objectPath",
+  "version": "0.1.0",
+  "description": "Allows the setting and getting on a JavaScript object literal. Alterately pollutes to the space provide on require.",
+  "main": "objectPath.js",
+  "scripts": {
+    "test": "mocha --reporter list --ignore-leaks"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/baccigalupi/node-objectPath"
+  },
+  "keywords": [
+    "object path",
+    "utility"
+  ],
+  "author": "Kane Baccigalupi",
+  "license": "MIT",
+  "devDependencies" : {
+    "mocha":          "1.4.2",
+    "chai":           "1.2.0"
+  }
+}
